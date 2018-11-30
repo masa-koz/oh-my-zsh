@@ -63,11 +63,7 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-<<<<<<< HEAD
-  git ssh-agent
-=======
-  git
->>>>>>> 2614b7ecdfe8b8f0cbeafffefb5925196f4011d4
+  git ssh-agent rbenv pip vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -100,7 +96,4 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-<<<<<<< HEAD
 alias rm="rm -i"
-=======
->>>>>>> 2614b7ecdfe8b8f0cbeafffefb5925196f4011d4
